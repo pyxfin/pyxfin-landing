@@ -22,11 +22,11 @@ export default function Home({ searchParams }: PageProps) {
         <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4">
           <div className="flex items-center gap-2">
             <Image
-              src="/pyxfin-logo-horizontal.svg"
+              src="/pyxfin-logo-horizontal-light.png"
               alt="Pyxfin"
-              width={140}
-              height={40}
-              className="h-7 w-auto"
+              width={180}
+              height={60}
+              className="h-auto w-40"
             />
           </div>
           <div className="text-xs md:text-sm text-white/60 uppercase tracking-[0.2em]">

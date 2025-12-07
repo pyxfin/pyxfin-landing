@@ -25,4 +25,12 @@
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+
+  /* 🔥 Override theme vars for Pyxfin */
+  --background: #0A1A33;   /* your navy */
+  --foreground: #ffffff;   /* make “foreground” = white */
+
+  /* Optional: make sure base colors match too */
+  background-color: #0A1A33;
+  color: #ffffff;
 }
